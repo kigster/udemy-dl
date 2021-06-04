@@ -1,3 +1,4 @@
+# pylint: disable=R,C,W,E
 #!/usr/bin/python
 
 """
@@ -7,7 +8,7 @@ Github  : https://github.com/r0oth3x49
 License : MIT
 
 
-Copyright (c) 2018 Nasir Khan (r0ot h3x49)
+Copyright (c) 2018-2025 Nasir Khan (r0ot h3x49)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the
 Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, 
@@ -21,11 +22,9 @@ ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR
 THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 """
-
 from colorama import init, Fore, Back, Style
 
 init(autoreset=True)
-# colors foreground text:
 fc = Fore.CYAN
 fg = Fore.GREEN
 fw = Fore.WHITE
@@ -34,8 +33,6 @@ fb = Fore.BLUE
 fy = Fore.YELLOW
 fm = Fore.MAGENTA
 
-
-# colors background text:
 bc = Back.CYAN
 bg = Back.GREEN
 bw = Back.WHITE
@@ -44,7 +41,6 @@ bb = Back.BLUE
 by = Fore.YELLOW
 bm = Fore.MAGENTA
 
-# colors style text:
 sd = Style.DIM
 sn = Style.NORMAL
 sb = Style.BRIGHT

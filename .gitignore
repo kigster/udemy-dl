@@ -1,6 +1,7 @@
 cookies.txt
 new_cook.txt
 new_cookies.txt
+.udemy-dl*.conf
 pack.sublime-project
 pack.sublime-workspace
 # Byte-compiled / optimized / DLL files
@@ -96,3 +97,6 @@ pip-selfcheck.json
 
 # Rope project settings
 .ropeproject
+
+/configuration
+/.envrc.local

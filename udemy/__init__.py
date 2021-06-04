@@ -1,10 +1,6 @@
-#!/usr/bin/python
+# pylint: disable=R,C
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-
-__version__ = "0.5"
-__author__  = "Nasir Khan (r0ot h3x49)"
-__license__ = 'MIT'
-__copyright__ = 'Copyright (c) 2018 Nasir Khan (r0ot h3x49)'
 
 """
 
@@ -13,7 +9,7 @@ Github  : https://github.com/r0oth3x49
 License : MIT
 
 
-Copyright (c) 2020 Nasir Khan (r0ot h3x49)
+Copyright (c) 2018-2025 Nasir Khan (r0ot h3x49)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the
 Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, 
@@ -28,5 +24,9 @@ THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 """
 
+__version__ = "1.1"
+__author__ = "Nasir Khan (r0ot h3x49)"
+__license__ = "MIT"
+__copyright__ = "Copyright (c) 2018 Nasir Khan (r0ot h3x49)"
 
-from ._udemy import course
+from udemy.udemy import course, fetch_enrolled_courses
